@@ -2,6 +2,7 @@
   /**
   * API Written by Jason Normandin and Mark Lesswing
   * Class Design  Dave Conroy
+  * Inspired by Luis Pena V1-API Class
   * dconroy@marealtor.com March 2015
   * API Doc URL : https://api.ramcoams.com/api/v2/ramco_api_v2_doc.pdf
   */
