@@ -73,5 +73,5 @@ echo $json;
 
 
 // Output a message at the end of the file
-//echo "End of file.<br />";
+echo "End of file git mac.<br />";
 ?>
