@@ -31,7 +31,7 @@ class RamcoAPI
       $this->setKey($aConfig->key);
       $this->setCert($aConfig->cert);
       $this->setTimezoneOffset($aConfig->timezone_offset);
-        return true;
+      return true;
         //echo 'The class "', __CLASS__, '" was initiated!<br />';
     }
     
@@ -47,7 +47,6 @@ class RamcoAPI
     
     public function setURL($url) {
         $this->api_url = $url;
-        
         return true;
     } // end function setURL()
     
@@ -57,7 +56,6 @@ class RamcoAPI
     
     public function setCert($cert) {
         $this->cert = $cert;
-        
         return true;
     } // end function setCert()
     
@@ -67,7 +65,6 @@ class RamcoAPI
     
     public function setKey($key) {
         $this->api_key = $key;
-        
         return true;
     } // end function setKey()
         
@@ -98,7 +95,6 @@ class RamcoAPI
     
     public function setMaxResults($max_results) {
         $this->maxresults = $max_results;
-        
         return true;
     } // end function setMaxResults()
     
@@ -108,7 +104,6 @@ class RamcoAPI
     
     public function setStringDelimiter($string_delimiter) {
         $this->string_delimiter = $string_delimiter;
-        
         return true;
     } // end function setStringDelimiter()
     
@@ -118,7 +113,6 @@ class RamcoAPI
         
     public function setAttributes($attributes) {
         $this->attributes = $attributes;
-        
         return true;
     } // end function setAttributes()
 
@@ -129,7 +123,6 @@ class RamcoAPI
     
     public function setFilter($filter) {
         $this->filter = $filter;
-        
         return true;
     } // end function setFilter()
 
@@ -137,13 +130,10 @@ class RamcoAPI
         return $this->filter;
     } // end function getFilter()
     
-    
     public function setGUID($guid) {
         $this->guid = $guid;
-        
         return true;
     } // end function setGUID()
-
     
     public function getGUID() {
         return $this->guid;
@@ -249,7 +239,7 @@ class RamcoAPI
         
         // Return the response
         return $resp_data;
-        }
+    }
         
 }
 
