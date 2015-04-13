@@ -150,7 +150,7 @@ class RamcoAPI
     } // end function getGUID()
     
         
-      public function setTimezoneOffset($timezone_offset){
+    public function setTimezoneOffset($timezone_offset){
         $this->timezone_offset = $timezone_offset;
     } // end function setTimezoneOffset()
     
@@ -213,7 +213,7 @@ class RamcoAPI
     } // end function initializeRequest()    
 
     
-        public function sendMessage() {
+    public function sendMessage() {
         
         $query=$this->initializeRequest();
         $curl = curl_init();
