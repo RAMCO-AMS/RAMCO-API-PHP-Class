@@ -22,7 +22,7 @@ class RamcoAPI
     var $maxresults='';
     var $operation='';
     var $string_delimiter='';
-    var $stream_token=''; //currently not supported
+    var $stream_token='';
     var $timezone_offset = '+0 Hours'; // GMT
     
     public function __construct($aConfig){     
